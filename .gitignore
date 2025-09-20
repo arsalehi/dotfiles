@@ -1,0 +1,35 @@
+# Ignore everything by default
+*
+
+# But track these specific files and directories
+!.gitignore
+!aerospace/
+!aerospace/**
+!starship.toml
+
+# Uncomment any directories you want to track later:
+# !nvim/
+# !wezterm/
+# !zed/
+# !karabiner/
+# !neofetch/
+# !iterm2/
+# !pip/
+# !atlassian/
+# !atlassian-cli/
+
+# Still ignore sensitive files within tracked directories
+**/secrets/
+**/cache/
+**/logs/
+**/.DS_Store
+**/node_modules/
+
+# Ignore GitHub Copilot data (contains session data)
+github-copilot/
+
+# Ignore atlassian-cli (might contain auth tokens)
+atlassian-cli/
+
+# Ignore configstore (might contain sensitive data)
+configstore/
