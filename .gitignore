@@ -7,6 +7,7 @@
 !aerospace/**
 !starship.toml
 !.zshrc
+!TOOLS_INSTALLATION_GUIDE.md
 
 # Uncomment any directories you want to track later:
 # !nvim/
